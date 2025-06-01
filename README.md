@@ -5,7 +5,7 @@
 ![image](CGIT_overview.jpg)
 
 ## Instruction
-First, download the GlaS dataset and put it into ../datasets/.
+First, download the GlaS dataset and put it into \../datasets``/.
 
 ## Environment setup
 For the mask-attention modules, please follow the instructions in https://github.com/facebookresearch/Mask2Former/blob/main/INSTALL.md
