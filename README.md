@@ -18,7 +18,7 @@ For the dilated dilated-neighborhood attention structure, please follow the inst
 We follow the dataset preparation process in Mask2former, so please follow the instructions in https://github.com/facebookresearch/Mask2Former/blob/main/datasets/README.md
 
 ## Training
-'''bash python train_m2f.py --config-file configs/coco/instance-segmentation/dinat/maskformer2_dinat_large_IN21k_384_bs16_100ep.yaml \ --num-gpus SOLVER.BASE_LR SOLVER.IMS_PER_BATCH SOLVER.MAX_ITER
+```bash python train_m2f.py --config-file configs/coco/instance-segmentation/dinat/maskformer2_dinat_large_IN21k_384_bs16_100ep.yaml \ --num-gpus SOLVER.BASE_LR SOLVER.IMS_PER_BATCH SOLVER.MAX_ITER
 
 
 
