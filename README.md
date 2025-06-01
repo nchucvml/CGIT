@@ -5,7 +5,8 @@
 ![image](CGIT_overview.jpg)
 
 ## Instruction
-First, download the GlaS dataset and put it into `../datasets/`.
+Before proceeding, make sure to follow the installation instructions in the sections below.
+Next, download the GlaS dataset and put it into `../datasets/`.
 
 ## Environment setup
 For the mask-attention modules, please follow the instructions in https://github.com/facebookresearch/Mask2Former/blob/main/INSTALL.md
@@ -15,6 +16,11 @@ For the dilated dilated-neighborhood attention structure, please follow the inst
 
 ## Data preparation
 We follow the dataset preparation process in Mask2former, so please follow the instructions in https://github.com/facebookresearch/Mask2Former/blob/main/datasets/README.md
+
+## Training
+<pre> ``` python train_m2f.py --config-file configs/coco/instance-segmentation/dinat/maskformer2_dinat_large_IN21k_384_bs16_100ep.yaml \
+--num-gpus SOLVER.BASE_LR SOLVER.IMS_PER_BATCH
+SOLVER.MAX_ITER ``` </pre>
 
 
 
