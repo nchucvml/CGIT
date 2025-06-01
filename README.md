@@ -5,8 +5,17 @@
 ![image](CGIT_overview.jpg)
 
 ## Instruction
+First, download the GlaS dataset and put it into ../datasets/.
 
-To be added soon.
+## Environment setup
+For the mask-attention modules, please follow the instructions in https://github.com/facebookresearch/Mask2Former/blob/main/INSTALL.md
+
+For the dilated dilated-neighborhood attention structure, please follow the instructions in https://github.com/SHI-Labs/Neighborhood-Attention-Transformer
+
+
+## Data preparation
+We follow the dataset preparation process in Mask2former, so please follow the instructions in https://github.com/facebookresearch/Mask2Former/blob/main/datasets/README.md
+
 
 
 ## Reference 
